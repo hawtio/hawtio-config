@@ -37,7 +37,7 @@
     },
     {
       "id": "w3",
-      "title": "Untitled3",
+      "title": "Size",
       "row": 3,
       "col": 1,
       "path": "jmx/charts",
@@ -45,7 +45,9 @@
       "search": {
         "att": "CommittedVirtualMemorySize,FreePhysicalMemorySize,FreeSwapSpaceSize,MaxFileDescriptorCount,OpenFileDescriptorCount,TotalPhysicalMemorySize,TotalSwapSpaceSize"
       },
-      "hash": ""
+      "hash": "",
+      "sizex": 1,
+      "sizey": 1
     }
   ],
   "uri": "/dashboards/team/all/4d5ff553f5982181d3.json",
