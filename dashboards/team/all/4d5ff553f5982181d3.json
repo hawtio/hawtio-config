@@ -6,8 +6,8 @@
     {
       "id": "w1",
       "title": "Operating System Attributes",
-      "row": 2,
-      "col": 1,
+      "row": 1,
+      "col": 2,
       "path": "jmx/attributes",
       "include": "app/jmx/html/attributes.html",
       "search": {
