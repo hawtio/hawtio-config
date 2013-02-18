@@ -15,19 +15,25 @@
       },
       "hash": "",
       "sizex": 1,
-      "sizey": 1
+      "sizey": 1,
+      "size_x": 1,
+      "size_y": 2
     },
     {
       "id": "w2",
       "title": "Untitled2",
-      "row": 2,
-      "col": 1,
+      "row": 1,
+      "col": 2,
       "path": "jmx/charts",
       "include": "app/jmx/html/charts.html",
       "search": {
         "att": "ProcessCpuLoad,ProcessCpuTime,SystemCpuLoad,SystemLoadAverage"
       },
-      "hash": ""
+      "hash": "",
+      "sizex": 1,
+      "sizey": 1,
+      "size_x": 1,
+      "size_y": 1
     }
   ],
   "uri": "/dashboards/team/all/4d5ff553f5982181d3.json",
