@@ -16,6 +16,18 @@
       "hash": "",
       "sizex": 1,
       "sizey": 1
+    },
+    {
+      "id": "w2",
+      "title": "Untitled2",
+      "row": 2,
+      "col": 1,
+      "path": "jmx/charts",
+      "include": "app/jmx/html/charts.html",
+      "search": {
+        "att": "ProcessCpuLoad,ProcessCpuTime,SystemCpuLoad,SystemLoadAverage"
+      },
+      "hash": ""
     }
   ],
   "uri": "/dashboards/team/all/4d5ff553f5982181d3.json",
