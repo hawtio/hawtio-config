@@ -6,7 +6,7 @@
     {
       "id": "w1",
       "title": "Operating System Attributes",
-      "row": 1,
+      "row": 2,
       "col": 1,
       "path": "jmx/attributes",
       "include": "app/jmx/html/attributes.html",
@@ -23,7 +23,7 @@
       "id": "w2",
       "title": "Untitled2",
       "row": 1,
-      "col": 2,
+      "col": 1,
       "path": "jmx/charts",
       "include": "app/jmx/html/charts.html",
       "search": {
