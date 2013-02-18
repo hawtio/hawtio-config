@@ -5,7 +5,7 @@
   "widgets": [
     {
       "id": "w1",
-      "title": "Untitled1",
+      "title": "Operating System Attributes",
       "row": 1,
       "col": 1,
       "path": "jmx/attributes",
@@ -13,7 +13,9 @@
       "search": {
         "nid": "root-java.lang-OperatingSystem"
       },
-      "hash": ""
+      "hash": "",
+      "sizex": 1,
+      "sizey": 1
     }
   ],
   "uri": "/dashboards/team/all/4d5ff553f5982181d3.json",
