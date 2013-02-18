@@ -2,7 +2,21 @@
   "id": "4d5ff553f5982181d3",
   "title": "Overview",
   "group": "Personal",
-  "widgets": [],
+  "widgets": [
+    {
+      "id": "w1",
+      "title": "Untitled1",
+      "row": 1,
+      "col": 1,
+      "path": "jmx/attributes",
+      "include": "app/jmx/html/attributes.html",
+      "search": {
+        "nid": "root-java.lang-OperatingSystem"
+      },
+      "hash": ""
+    }
+  ],
   "uri": "/dashboards/team/all/4d5ff553f5982181d3.json",
-  "$$hashKey": "011"
+  "$$hashKey": "011",
+  "__ng_selected__": true
 }
