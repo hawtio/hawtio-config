@@ -34,6 +34,18 @@
       "sizey": 1,
       "size_x": 1,
       "size_y": 1
+    },
+    {
+      "id": "w3",
+      "title": "Untitled3",
+      "row": 3,
+      "col": 1,
+      "path": "jmx/charts",
+      "include": "app/jmx/html/charts.html",
+      "search": {
+        "att": "CommittedVirtualMemorySize,FreePhysicalMemorySize,FreeSwapSpaceSize,MaxFileDescriptorCount,OpenFileDescriptorCount,TotalPhysicalMemorySize,TotalSwapSpaceSize"
+      },
+      "hash": ""
     }
   ],
   "uri": "/dashboards/team/all/4d5ff553f5982181d3.json",
