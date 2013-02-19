@@ -5,7 +5,7 @@
   "widgets": [
     {
       "id": "w1",
-      "title": "Untitled1",
+      "title": "route2",
       "row": 1,
       "col": 1,
       "path": "camel/routes",
@@ -14,7 +14,9 @@
         "tab": "integration",
         "nid": "root-org.apache.camel-stracmac.local%2Fcamel-1-routes-%22route2%22"
       },
-      "hash": ""
+      "hash": "",
+      "sizex": 1,
+      "sizey": 1
     }
   ],
   "uri": "/dashboards/team/all/4d615801e862f1d6ff.json",
