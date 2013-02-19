@@ -4,23 +4,6 @@
   "group": "Personal",
   "widgets": [
     {
-      "id": "w1",
-      "title": "route1",
-      "row": 1,
-      "col": 1,
-      "path": "camel/routes",
-      "include": "app/camel/html/routes.html",
-      "search": {
-        "tab": "integration",
-        "nid": "root-org.apache.camel-stracmac.local/camel-1-routes-\"route1\""
-      },
-      "hash": "",
-      "sizex": 1,
-      "sizey": 1,
-      "size_x": 1,
-      "size_y": 1
-    },
-    {
       "id": "w2",
       "title": "route2",
       "row": 1,
