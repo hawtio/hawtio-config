@@ -12,7 +12,7 @@
       "include": "app/camel/html/routes.html",
       "search": {
         "tab": "integration",
-        "nid": "root-org.apache.camel-stracmac.local%2Fcamel-1-routes-%22route2%22"
+        "nid": "root-org.apache.camel-localhost%2Fcamel-1-routes-%22route2%22"
       },
       "hash": "",
       "sizex": 1,
