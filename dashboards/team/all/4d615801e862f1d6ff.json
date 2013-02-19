@@ -2,25 +2,7 @@
   "id": "4d615801e862f1d6ff",
   "title": "Camel",
   "group": "Personal",
-  "widgets": [
-    {
-      "id": "w2",
-      "title": "route2",
-      "row": 1,
-      "col": 2,
-      "path": "camel/routes",
-      "include": "app/camel/html/routes.html",
-      "search": {
-        "tab": "integration",
-        "nid": "root-org.apache.camel-stracmac.local/camel-1-routes-\"route2\""
-      },
-      "hash": "",
-      "sizex": 1,
-      "sizey": 1,
-      "size_x": 1,
-      "size_y": 1
-    }
-  ],
+  "widgets": [],
   "uri": "/dashboards/team/all/4d615801e862f1d6ff.json",
   "$$hashKey": "013",
   "__ng_selected__": true
