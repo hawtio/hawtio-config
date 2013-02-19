@@ -23,15 +23,19 @@
     {
       "id": "w2",
       "title": "Untitled2",
-      "row": 2,
-      "col": 1,
+      "row": 1,
+      "col": 2,
       "path": "camel/routes",
       "include": "app/camel/html/routes.html",
       "search": {
         "tab": "integration",
         "nid": "root-org.apache.camel-localhost%2Fcamel-1-routes-%22route1%22"
       },
-      "hash": ""
+      "hash": "",
+      "sizex": 1,
+      "sizey": 1,
+      "size_x": 1,
+      "size_y": 1
     }
   ],
   "uri": "/dashboards/team/all/4d615801e862f1d6ff.json",
