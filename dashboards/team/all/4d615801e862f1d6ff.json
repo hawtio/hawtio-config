@@ -19,19 +19,6 @@
       "sizey": 1,
       "size_x": 1,
       "size_y": 1
-    },
-    {
-      "id": "w2",
-      "title": "Untitled2",
-      "row": 2,
-      "col": 1,
-      "path": "camel/routes",
-      "include": "app/camel/html/routes.html",
-      "search": {
-        "tab": "integration",
-        "nid": "root-org.apache.camel-stracmac.local%2Fcamel-1-routes-%22route1%22"
-      },
-      "hash": ""
     }
   ],
   "uri": "/dashboards/team/all/4d615801e862f1d6ff.json",
