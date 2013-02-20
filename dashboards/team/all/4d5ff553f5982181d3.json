@@ -28,7 +28,7 @@
       "include": "app/jmx/html/charts.html",
       "search": {
         "nid": "root-java.lang-OperatingSystem",
-        "att": "ProcessCpuLoad,SystemCpuLoad,SystemLoadAverage"
+        "att": "ProcessCpuLoad%2CSystemCpuLoad%2CSystemLoadAverage"
       },
       "hash": "",
       "sizex": 1,
