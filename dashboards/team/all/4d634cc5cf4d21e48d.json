@@ -2,7 +2,22 @@
   "id": "4d634cc5cf4d21e48d",
   "title": "ActiveMQ",
   "group": "Personal",
-  "widgets": [],
+  "widgets": [
+    {
+      "id": "w1",
+      "title": "Untitled1",
+      "row": 1,
+      "col": 1,
+      "path": "jmx/attributes",
+      "include": "app/jmx/html/attributes.html",
+      "search": {
+        "tab": "messaging",
+        "nid": "root-org.apache.activemq-broker1-Queue"
+      },
+      "hash": ""
+    }
+  ],
   "$$hashKey": "027",
-  "__ng_selected__": true
+  "__ng_selected__": true,
+  "uri": "/dashboards/team/all/4d634cc5cf4d21e48d.json"
 }
