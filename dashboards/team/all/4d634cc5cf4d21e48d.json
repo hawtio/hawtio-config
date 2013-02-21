@@ -6,8 +6,8 @@
     {
       "id": "w1",
       "title": "browse.me consumers",
-      "row": 5,
-      "col": 2,
+      "row": 2,
+      "col": 1,
       "path": "activemq/subscribers",
       "include": "app/activemq/html/subscribers.html",
       "search": {
