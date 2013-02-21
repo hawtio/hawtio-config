@@ -7,7 +7,7 @@
       "id": "w1",
       "title": "browse.me consumers",
       "row": 1,
-      "col": 1,
+      "col": 2,
       "path": "activemq/subscribers",
       "include": "app/activemq/html/subscribers.html",
       "search": {
@@ -16,12 +16,14 @@
       },
       "hash": "",
       "sizex": 1,
-      "sizey": 1
+      "sizey": 1,
+      "size_x": 1,
+      "size_y": 3
     },
     {
       "id": "w2",
       "title": "Untitled2",
-      "row": 2,
+      "row": 1,
       "col": 1,
       "path": "activemq/subscribers",
       "include": "app/activemq/html/subscribers.html",
@@ -29,7 +31,11 @@
         "tab": "messaging",
         "nid": "root-org.apache.activemq-broker1-Queue-personnel.records"
       },
-      "hash": ""
+      "hash": "",
+      "sizex": 1,
+      "sizey": 1,
+      "size_x": 1,
+      "size_y": 1
     }
   ],
   "$$hashKey": "027",
