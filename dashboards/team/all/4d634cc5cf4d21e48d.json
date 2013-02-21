@@ -6,7 +6,7 @@
     {
       "id": "w1",
       "title": "browse.me consumers",
-      "row": 1,
+      "row": 5,
       "col": 2,
       "path": "activemq/subscribers",
       "include": "app/activemq/html/subscribers.html",
@@ -24,7 +24,7 @@
       "id": "w2",
       "title": "personal.records consumers",
       "row": 1,
-      "col": 1,
+      "col": 2,
       "path": "activemq/subscribers",
       "include": "app/activemq/html/subscribers.html",
       "search": {
@@ -40,7 +40,7 @@
     {
       "id": "w3",
       "title": "Untitled3",
-      "row": 5,
+      "row": 1,
       "col": 1,
       "path": "jmx/attributes",
       "include": "app/jmx/html/attributes.html",
