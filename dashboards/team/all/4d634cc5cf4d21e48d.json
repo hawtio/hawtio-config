@@ -17,6 +17,19 @@
       "hash": "",
       "sizex": 1,
       "sizey": 1
+    },
+    {
+      "id": "w2",
+      "title": "Untitled2",
+      "row": 2,
+      "col": 1,
+      "path": "activemq/subscribers",
+      "include": "app/activemq/html/subscribers.html",
+      "search": {
+        "tab": "messaging",
+        "nid": "root-org.apache.activemq-broker1-Queue-personnel.records"
+      },
+      "hash": ""
     }
   ],
   "$$hashKey": "027",
