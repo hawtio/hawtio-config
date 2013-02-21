@@ -18,7 +18,7 @@
       "sizex": 1,
       "sizey": 1,
       "size_x": 1,
-      "size_y": 3
+      "size_y": 4
     },
     {
       "id": "w2",
@@ -35,19 +35,23 @@
       "sizex": 1,
       "sizey": 1,
       "size_x": 1,
-      "size_y": 1
+      "size_y": 4
     },
     {
       "id": "w3",
       "title": "Untitled3",
-      "row": 3,
+      "row": 5,
       "col": 1,
       "path": "jmx/attributes",
       "include": "app/jmx/html/attributes.html",
       "search": {
         "nid": "root-org.apache.activemq-broker1-Queue"
       },
-      "hash": ""
+      "hash": "",
+      "sizex": 1,
+      "sizey": 1,
+      "size_x": 1,
+      "size_y": 1
     }
   ],
   "$$hashKey": "027",
