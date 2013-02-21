@@ -5,7 +5,7 @@
   "widgets": [
     {
       "id": "w1",
-      "title": "Untitled1",
+      "title": "browse.me consumers",
       "row": 1,
       "col": 1,
       "path": "activemq/subscribers",
@@ -14,7 +14,9 @@
         "tab": "messaging",
         "nid": "root-org.apache.activemq-broker1-Queue-browse.me"
       },
-      "hash": ""
+      "hash": "",
+      "sizex": 1,
+      "sizey": 1
     }
   ],
   "$$hashKey": "027",
