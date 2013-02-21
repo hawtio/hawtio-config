@@ -6,8 +6,8 @@
     {
       "id": "w1",
       "title": "browse.me consumers",
-      "row": 2,
-      "col": 1,
+      "row": 1,
+      "col": 2,
       "path": "activemq/subscribers",
       "include": "app/activemq/html/subscribers.html",
       "search": {
@@ -18,12 +18,12 @@
       "sizex": 1,
       "sizey": 1,
       "size_x": 1,
-      "size_y": 4
+      "size_y": 2
     },
     {
       "id": "w2",
       "title": "personal.records consumers",
-      "row": 1,
+      "row": 3,
       "col": 2,
       "path": "activemq/subscribers",
       "include": "app/activemq/html/subscribers.html",
@@ -35,7 +35,7 @@
       "sizex": 1,
       "sizey": 1,
       "size_x": 1,
-      "size_y": 4
+      "size_y": 3
     },
     {
       "id": "w3",
