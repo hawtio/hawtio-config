@@ -22,7 +22,7 @@
     {
       "id": "w2",
       "title": "CPU Load",
-      "row": 1,
+      "row": 2,
       "col": 1,
       "path": "jmx/charts",
       "include": "app/jmx/html/charts.html",
