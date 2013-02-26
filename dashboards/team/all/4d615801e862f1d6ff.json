@@ -6,8 +6,8 @@
     {
       "id": "w1",
       "title": "route2",
-      "row": 1,
-      "col": 2,
+      "row": 2,
+      "col": 1,
       "path": "camel/routes",
       "include": "app/camel/html/routes.html",
       "search": {
