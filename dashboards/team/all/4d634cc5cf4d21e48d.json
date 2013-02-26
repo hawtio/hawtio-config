@@ -6,7 +6,7 @@
     {
       "id": "w1",
       "title": "browse.me consumers",
-      "row": 1,
+      "row": 2,
       "col": 1,
       "path": "activemq/subscribers",
       "include": "app/activemq/html/subscribers.html",
@@ -40,7 +40,7 @@
     {
       "id": "w3",
       "title": "queue sizes",
-      "row": 3,
+      "row": 1,
       "col": 1,
       "path": "jmx/attributes",
       "include": "app/jmx/html/attributes.html",
