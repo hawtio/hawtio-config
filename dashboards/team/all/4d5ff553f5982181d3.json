@@ -14,8 +14,6 @@
         "nid": "root-java.lang-OperatingSystem"
       },
       "hash": "",
-      "sizex": 1,
-      "sizey": 1,
       "size_x": 2,
       "size_y": 2
     },
@@ -31,8 +29,6 @@
         "att": "ProcessCpuLoad%2CSystemCpuLoad%2CSystemLoadAverage"
       },
       "hash": "",
-      "sizex": 1,
-      "sizey": 1,
       "size_x": 2,
       "size_y": 1
     },
@@ -48,8 +44,6 @@
         "att": "FreePhysicalMemorySize%2CFreeSwapSpaceSize%2CTotalPhysicalMemorySize%2CTotalSwapSpaceSize"
       },
       "hash": "",
-      "sizex": 1,
-      "sizey": 1,
       "size_x": 2,
       "size_y": 1
     }
