@@ -23,8 +23,8 @@
     {
       "id": "w2",
       "title": "personal.records consumers",
-      "row": 4,
-      "col": 1,
+      "row": 1,
+      "col": 3,
       "path": "activemq/subscribers",
       "include": "app/activemq/html/subscribers.html",
       "search": {
