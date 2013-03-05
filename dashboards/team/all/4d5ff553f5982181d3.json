@@ -37,7 +37,7 @@
       "id": "w1",
       "title": "Operating System Attributes",
       "row": 1,
-      "col": 3,
+      "col": 4,
       "path": "jmx/attributes",
       "include": "app/jmx/html/attributes.html",
       "search": {
