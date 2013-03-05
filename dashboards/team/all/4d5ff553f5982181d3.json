@@ -15,7 +15,7 @@
         "att": "ProcessCpuLoad%2CSystemCpuLoad%2CSystemLoadAverage"
       },
       "hash": "",
-      "size_x": 2,
+      "size_x": 3,
       "size_y": 1
     },
     {
