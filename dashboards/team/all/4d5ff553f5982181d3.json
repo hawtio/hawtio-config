@@ -30,7 +30,7 @@
         "att": "FreePhysicalMemorySize%2CFreeSwapSpaceSize%2CTotalPhysicalMemorySize%2CTotalSwapSpaceSize"
       },
       "hash": "",
-      "size_x": 2,
+      "size_x": 3,
       "size_y": 1
     },
     {
