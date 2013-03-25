@@ -1,0 +1,9 @@
+{
+  "args": [
+    { "desc": "Argument key", "name": "key", "type": "java.lang.String" },
+    { "desc": "Argument value", "name": "value", "type": "java.lang.String" },
+    { "desc": "Long argument", "name": "longArg", "type": "Long" },
+    { "desc": "Int argument", "name": "intArg", "type": "Integer" }],
+   "desc": "Show some stuff in a form from JSON",
+   "ret": "java.lang.String"
+}
