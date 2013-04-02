@@ -31,5 +31,5 @@
 		},
     "longArg": { "description": "Long argument", "type": "Long" },
     "intArg": { "description": "Int argument", "type": "Integer" }
-		},
+	}
 }
