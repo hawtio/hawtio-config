@@ -1,30 +1,33 @@
-{"key":"1","value":"value of 1 thing","longArg":1234,
-	"tableValue": [
-		{
-			"key": "a",
-			"value": "value of a"
-		},
-		{
-			"key": "b",
-			"value": "value of b"
-		},
-		{
-			"key": "c",
-			"value": "value of c"
-		}
-	],
-	"fooValue": [
-		{
-			"name": "n1",
-			"value": "value of n1"
-		},
-		{
-			"name": "n2",
-			"value": "value of n2"
-		},
-		{
-			"name": "n3",
-			"value": "value of n3"
-		}
-	]
+{
+  "key": "1",
+  "value": "value of 1 thing",
+  "longArg": 1234,
+  "tableValue": [
+    {
+      "key": "a",
+      "value": "value of a"
+    },
+    {
+      "key": "b",
+      "value": "value of b"
+    },
+    {
+      "key": "c",
+      "value": "value of c"
+    }
+  ],
+  "fooValue": [
+    {
+      "name": "n1",
+      "value": "value of n1"
+    },
+    {
+      "name": "n2",
+      "value": "value of n2"
+    },
+    {
+      "name": "n3",
+      "value": "value of n3"
+    }
+  ]
 }
