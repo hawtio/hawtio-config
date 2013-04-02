@@ -1,9 +1,35 @@
 {
+  "description": "Show some stuff in a form from JSON",
+	"definitions": {
+		"foo": {
+			"type": "object",
+	    "properties": {
+	        "name": { "type": "string" },
+	        "value": { "type": "string" }
+	    }
+		}
+	},
   "properties": {
     "key": { "description": "Argument key", "type": "java.lang.String" },
     "value": { "description": "Argument value", "type": "java.lang.String" },
+		"tableValue": { 
+			"description": "A table of values with nested schema properties", 
+			"type": "array",
+			"items": {
+				"properties": {
+	        "key": { "type": "string" },
+	        "value": { "type": "string" }
+				}
+			}
+		},
+		"fooValue": { 
+			"description": "A table of values with referenced foo type definition", 
+			"type": "array",
+			"items": {
+				"type": "foo"
+			}
+		},
     "longArg": { "description": "Long argument", "type": "Long" },
-    "intArg": { "description": "Int argument", "type": "Integer" }},
-   "description": "Show some stuff in a form from JSON",
-   "type": "java.lang.String"
+    "intArg": { "description": "Int argument", "type": "Integer" }
+		},
 }

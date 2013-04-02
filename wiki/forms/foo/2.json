@@ -1,1 +1,30 @@
-{"key":"2","value":"value of 2","longArg":4567678,"intArg":234}
+{"key":"2","value":"value of 2","longArg":4567678,"intArg":234,
+	"tableValue": [
+		{
+			"key": "x",
+			"value": "value of x"
+		},
+		{
+			"key": "y",
+			"value": "value of y"
+		},
+		{
+			"key": "z",
+			"value": "value of z"
+		}
+	],
+	"fooValue": [
+		{
+			"name": "x1",
+			"value": "value of x1"
+		},
+		{
+			"name": "x2",
+			"value": "value of x2"
+		},
+		{
+			"name": "x3",
+			"value": "value of x3"
+		}
+	]
+}
