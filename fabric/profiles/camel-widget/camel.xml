@@ -10,12 +10,12 @@
        http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core.xsd">
 
  <camelContext xmlns="http://camel.apache.org/schema/spring">
-   <route>
+   <route id="firstRoute">
      <from uri="file:src/test/data?noop=true"/>
      <to uri="activemq:personnel.records"/>
      <to uri="activemq:browse.me"/>
    </route>
-   <route>
+   <route id="secondRoute">
      <from uri="activemq:personnel.records"/>
      <choice>
        <when>
