@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Configures the Camel Context-->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:amq="http://activemq.apache.org/schema/core"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
+       http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core.xsd">
+
+ <camelContext xmlns="http://camel.apache.org/schema/spring">
+   <route id="firstRoute">
+     <from uri="file:src/test/data?noop=true"/>
+     <to uri="activemq:personnel.records"/>
+     <to uri="activemq:browse.me"/>
+   </route>
+   <route id="secondRoute">
+     <from uri="activemq:personnel.records"/>
+     <choice>
+       <when>
+         <xpath>/person/city = 'London'</xpath>
+         <to uri="file:target/messages/uk"/>
+       </when>
+       <otherwise>
+         <to uri="file:target/messages/others"/>
+       </otherwise>
+     </choice>
+   </route>
+   <!--
+   <route id="timerToLog">
+     <from uri="timer:foo?period=5000"/>
+     <marshal>
+       <json library="Jackson"/>
+     </marshal>
+     <log message="The message contains ${body}"/>
+     <to uri="activemq:timer.events"/>
+   </route>
+-->
+ </camelContext>
+
+
+  <!-- This creates an embedded ActiveMQ Broker -->
+  <broker xmlns="http://activemq.apache.org/schema/core" brokerName="broker1" useJmx="true">
+    <networkConnectors>
+      <networkConnector uri="static:(tcp://localhost:31317)"/>
+    </networkConnectors>
+    <transportConnectors>
+      <transportConnector uri="tcp://localhost:31316"/>
+    </transportConnectors>
+
+    <persistenceAdapter>
+      <levelDB directory="target/activemq/broker1/data/leveldb" logSize="107374182"/>
+    </persistenceAdapter>
+  </broker>
+
+  <broker xmlns="http://activemq.apache.org/schema/core" brokerName="broker2" useJmx="true">
+    <networkConnectors>
+      <networkConnector uri="static:(tcp://localhost:31316)"/>
+    </networkConnectors>
+    <transportConnectors>
+      <transportConnector uri="tcp://localhost:31317"/>
+    </transportConnectors>
+
+    <persistenceAdapter>
+      <levelDB directory="target/activemq/broker2/data/leveldb" logSize="107374182"/>
+    </persistenceAdapter>
+  </broker>
+
+  <!-- Lets connect the Camel ActiveMQ component to the embedded broker.
+       See http://camel.apache.org/activemq.html for more information.
+  -->
+  <bean id="activemq" class="org.apache.activemq.camel.component.ActiveMQComponent">
+    <property name="brokerURL" value="failover:tcp://localhost:31316"/>
+  </bean>
+
+  <!-- tell Camel to use localhost as the JMX MBean naming to have a fixed name style -->
+  <bean id="managementName" class="org.apache.camel.management.DefaultManagementNamingStrategy">
+      <!-- the hostname does not have to be resolvable, it can be any value you want -->
+      <property name="hostName" value="localhost"/>
+      <property name="domainName" value="org.apache.camel"/>
+  </bean>
+</beans>
