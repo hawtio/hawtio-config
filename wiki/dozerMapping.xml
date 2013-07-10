@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mappings xmlns="http://dozer.sourceforge.net"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
-
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://dozer.sourceforge.net  http://dozer.sourceforge.net/schema/beanmapping.xsd">
   <mapping>
-    <class-a>com.acme.Something</class-a>
-    <class-b>com.acme.AnotherThing</class-b>
+    <class-a>io.hawt.example.dozer.service.Customer</class-a>
+    <class-b>io.hawt.example.dozer.model.Customer</class-b>
     <field>
-      <a>name</a>
-      <b>fullName</b>
+      <a>street</a>
+      <b>address.streetName</b>
     </field>
-    <field copy-by-reference="true">
-      <a>foo</a>
-      <b>bar</b>
+    <field>
+      <a>zip</a>
+      <b>address.zipCode</b>
     </field>
   </mapping>
 </mappings>
