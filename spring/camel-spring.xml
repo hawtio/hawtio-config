@@ -7,7 +7,7 @@
        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
        http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core.xsd">
 
-  <camelContext xmlns="http://camel.apache.org/schema/spring">
+  <camelContext id="sampleSpring" xmlns="http://camel.apache.org/schema/spring">
     <route id="myRoute">
       <from uri="timer://foo?fixedRate=true&amp;period=30000"/>
       <setBody>
